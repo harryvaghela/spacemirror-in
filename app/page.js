@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen overflow-hidden bg-gradient=to=b from-zinc-950 via-black to zinc-900">
+    <main className="relative min-h-screen overflow-hidden bg-gradient-to-b from-zinc-950 via-black to-zinc-900">
       <Navbar />
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
   <div className="absolute top-20 right-10 h-[500px] w-[500px] rounded-full bg-amber-400/10 blur-[140px]" />
@@ -190,7 +190,7 @@ export default function Home() {
             {
               id: "square",
               link: "Square LED Mirror",
-              img: "/images/Square.png",
+              img: "/images/square.png",
               desc: "Premium square frame • Hotel style",
             },
             {

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { products } from "../../../data/produts"; 
+import { products } from "../../products"; 
 
 export default function Page({ params }) {
   const product = products.find((p) => p.id === params.id);
